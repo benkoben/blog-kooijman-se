@@ -1,0 +1,21 @@
+version: '3'
+
+# kooijman.se — dev tasks (https://taskfile.dev)
+# Run `task serve` to host the site locally at http://127.0.0.1:1313
+
+tasks:
+  serve:
+    desc: Host the site locally at http://127.0.0.1:1313 (drafts & future posts included)
+    aliases: [dev]
+    cmds:
+      - hugo server --buildDrafts --buildFuture --bind 127.0.0.1 --port 1313
+
+  build:
+    desc: Production build, same as CI (hugo --minify)
+    cmds:
+      - hugo --minify
+
+  clean:
+    desc: Remove generated output
+    cmds:
+      - rm -rf public resources

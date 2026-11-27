@@ -1,0 +1,61 @@
+# kooijman.se — Hugo site config
+baseURL: "https://kooijman.se/"
+defaultContentLanguage: en
+title: Ben Kooijman
+copyright: '© 2026 Ben Kooijman · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
+theme: PaperMod
+enableRobotsTXT: true
+
+# Tags are the only taxonomy — /tags/ lists them all with counts,
+# and /tags/woodworking/ shows every post AND project with that tag.
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+
+params:
+  author: Ben Kooijman
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  mainSections:
+    - posts
+  homeInfoParams:
+    Title: "Hi, I'm Ben"
+    Content: >
+      Welcome to my corner of the internet — I write about software,
+      woodworking, and whatever else I'm building. Browse by
+      [topic](/tags/), see [projects](/projects/), or read
+      [about me](/about/).
+  socialIcons:
+    - name: github
+      url: "https://github.com/benkoben"
+    - name: email
+      url: "mailto:ben@kooijman.se"
+  assets:
+    favicon: "/favicon.svg"

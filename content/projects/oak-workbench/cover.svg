@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#b08968"/>
+  <rect x="150" y="210" width="40" height="330" fill="#7f5539"/>
+  <rect x="1010" y="210" width="40" height="330" fill="#7f5539"/>
+  <rect x="80" y="120" width="1040" height="90" rx="10" fill="#9c6644"/>
+  <path d="M80 132 Q 300 168 600 132 T 1120 132" stroke="#7f5539" stroke-width="6" fill="none" opacity="0.6"/>
+  <text x="600" y="610" font-family="Georgia, serif" font-size="44" fill="#f5f5f5" text-anchor="middle">oak workbench — placeholder image</text>
+</svg>
