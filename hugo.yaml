@@ -1,5 +1,5 @@
-# kooijman.se — Hugo site config
-baseURL: "https://kooijman.se/"
+# writing.kooijman.se — Hugo site config
+baseURL: "https://writing.kooijman.se/"
 defaultContentLanguage: en
 title: Ben Kooijman
 copyright: '© 2026 Ben Kooijman · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)'
